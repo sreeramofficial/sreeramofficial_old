@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Markdown Should render a 1`] = `
+<section>
+  <p
+    class="MuiTypography-root MuiTypography-body2 makeStyles-p-2 MuiTypography-paragraph"
+  >
+    <a
+      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+      href="#"
+    >
+      #
+    </a>
+  </p>
+</section>
+`;
+
+exports[`Markdown Should render h1 1`] = `
+<section>
+  <h1
+    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+  >
+    h1
+  </h1>
+</section>
+`;
+
+exports[`Markdown Should render h2 1`] = `
+<section>
+  <h2
+    class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+  >
+    h2
+  </h2>
+</section>
+`;
+
+exports[`Markdown Should render h3 1`] = `
+<section>
+  <h3
+    class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+  >
+    h3
+  </h3>
+</section>
+`;
+
+exports[`Markdown Should render h4 1`] = `
+<section>
+  <span
+    class="MuiTypography-root MuiTypography-caption MuiTypography-gutterBottom"
+  >
+    h4
+  </span>
+</section>
+`;
+
+exports[`Markdown Should render li 1`] = `
+<section>
+  <ul>
+    <li
+      class="makeStyles-li-7"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        li
+      </span>
+      ;
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`Markdown Should render p 1`] = `
+<section>
+  <p
+    class="MuiTypography-root MuiTypography-body2 makeStyles-p-4 MuiTypography-paragraph"
+  >
+    p
+  </p>
+</section>
+`;
+
+exports[`Markdown Should render span 1`] = `
+<section>
+  <p
+    class="MuiTypography-root MuiTypography-body2 makeStyles-p-6 MuiTypography-paragraph"
+  >
+    <span>
+      span
+    </span>
+  </p>
+</section>
+`;
+
+exports[`Markdown Should render without props 1`] = `<section />`;

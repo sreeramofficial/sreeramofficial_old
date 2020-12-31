@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index with act Should render without props 1`] = `
+<section>
+  <input
+    type="text"
+    value=""
+  />
+</section>
+`;
+
+exports[`Input with enzyme Should set value to state when input is changed 1`] = `
+<input
+  onChange={[Function]}
+  type="text"
+  value="foo"
+/>
+`;

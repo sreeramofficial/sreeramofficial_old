@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Should render without props 1`] = `
+<section>
+  <div
+    class="PrivateSwipeArea-root-6 PrivateSwipeArea-anchorLeft-7"
+    style="width: 50px;"
+  />
+</section>
+`;

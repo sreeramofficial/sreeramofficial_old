@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bottombar renders with props 1`] = `
+<section>
+  <div
+    class="MuiBottomNavigation-root class"
+  >
+    <button
+      class="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected"
+      style="min-width: 25px;"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiBottomNavigationAction-wrapper"
+      >
+        <img
+          alt="title"
+          src="content"
+          style="height: 25px; width: 25px; border-radius: 50%;"
+        />
+        <span
+          class="MuiBottomNavigationAction-label Mui-selected"
+        >
+          title
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</section>
+`;
+
+exports[`Bottombar renders without props 1`] = `<section />`;

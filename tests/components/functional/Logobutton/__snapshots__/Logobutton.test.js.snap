@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logobutton Should render inverted logo 1`] = `
+<section>
+  <img
+    alt="logo"
+    class="makeStyles-logo-2"
+    src="test-file-stub"
+  />
+</section>
+`;
+
+exports[`Logobutton Should render without props 1`] = `
+<section>
+  <img
+    alt="logo"
+    class="makeStyles-logo-1"
+    src="test-file-stub"
+  />
+</section>
+`;

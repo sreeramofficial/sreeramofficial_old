@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Should render without props 1`] = `
+<section>
+  <img
+    alt="blog"
+    class="img img--center"
+    height="200"
+    loading="lazy"
+    src="/sections/dev.svg"
+    title="blog"
+    width="375"
+  />
+</section>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Should render without props 1`] = `
+<section>
+  <main
+    class="makeStyles-content-1"
+  >
+    <div
+      class="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+    />
+  </main>
+</section>
+`;

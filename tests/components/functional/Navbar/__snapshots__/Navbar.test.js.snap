@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render with props 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-appBar-1"
+  elevation={0}
+>
+  <WithStyles(ForwardRef(Toolbar))
+    className="makeStyles-toolbar-7"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      aria-hidden={true}
+      className="Navbar__leftbutton makeStyles-leftBtn-2"
+      onClick={[MockFunction]}
+    >
+      <MenuIcon
+        color="secondary"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+    <div
+      className="Navbar__titlebar makeStyles-titlebar-4"
+      onClick={[MockFunction]}
+    >
+      <div
+        className="makeStyles-titleLeft-3"
+      >
+        <Hidden
+          smUp={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-title-5"
+            noWrap={true}
+            variant="h6"
+          >
+            b
+          </WithStyles(ForwardRef(Typography))>
+        </Hidden>
+        <Hidden
+          xsDown={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-title-5"
+            noWrap={true}
+            variant="h6"
+          >
+            a
+          </WithStyles(ForwardRef(Typography))>
+            |  
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-description-6"
+            noWrap={true}
+            variant="caption"
+          >
+            b
+          </WithStyles(ForwardRef(Typography))>
+        </Hidden>
+      </div>
+      <WithStyles(ForwardRef(IconButton))
+        aria-controls="simple-menu"
+        aria-hidden={true}
+        onClick={[Function]}
+      >
+        <AccountCircleIcon
+          className="makeStyles-small-8"
+          color="secondary"
+        />
+        <WithStyles(ForwardRef(Menu))
+          anchorEl={null}
+          id="simple-menu"
+          keepMounted={true}
+          onClose={[Function]}
+          open={false}
+        >
+          <Link
+            href="/api/auth/login?redirectTo=/"
+          >
+            <WithStyles(ForwardRef(MenuItem))>
+              Login
+            </WithStyles(ForwardRef(MenuItem))>
+          </Link>
+        </WithStyles(ForwardRef(Menu))>
+      </WithStyles(ForwardRef(IconButton))>
+    </div>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;
+
+exports[`Navbar should render without props 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-appBar-1"
+  elevation={0}
+>
+  <WithStyles(ForwardRef(Toolbar))
+    className="makeStyles-toolbar-7"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      aria-hidden={true}
+      className="Navbar__leftbutton makeStyles-leftBtn-2"
+      onClick={[Function]}
+    >
+      <MenuIcon
+        color="secondary"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+    <div
+      className="Navbar__titlebar makeStyles-titlebar-4"
+      onClick={[Function]}
+    >
+      <div
+        className="makeStyles-titleLeft-3"
+      >
+        <Hidden
+          smUp={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-title-5"
+            noWrap={true}
+            variant="h6"
+          />
+        </Hidden>
+        <Hidden
+          xsDown={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-title-5"
+            noWrap={true}
+            variant="h6"
+          />
+            |  
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-description-6"
+            noWrap={true}
+            variant="caption"
+          />
+        </Hidden>
+      </div>
+      <WithStyles(ForwardRef(IconButton))
+        aria-controls="simple-menu"
+        aria-hidden={true}
+        onClick={[Function]}
+      >
+        <AccountCircleIcon
+          className="makeStyles-small-8"
+          color="secondary"
+        />
+        <WithStyles(ForwardRef(Menu))
+          anchorEl={null}
+          id="simple-menu"
+          keepMounted={true}
+          onClose={[Function]}
+          open={false}
+        >
+          <Link
+            href="/api/auth/login?redirectTo=/"
+          >
+            <WithStyles(ForwardRef(MenuItem))>
+              Login
+            </WithStyles(ForwardRef(MenuItem))>
+          </Link>
+        </WithStyles(ForwardRef(Menu))>
+      </WithStyles(ForwardRef(IconButton))>
+    </div>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;
